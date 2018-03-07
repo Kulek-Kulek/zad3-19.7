@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import ListContainer from './CommentsListContainer';
+import CommentsListContainer from './CommentsListContainer';
 
 const App = () => {
   return (
     <div className="App">
       <h1>Tu jest lista komentarzy!</h1>
-      <ListContainer />
+      <CommentsListContainer />
     </div>
   );
 };
